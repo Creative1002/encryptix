@@ -1,0 +1,246 @@
+html code
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="width=device-width", initial-scale="1.0">
+   <link rel="stylesheet" href="landing.css">
+   <title>Personal portfolio</title>
+</head>
+<body>
+   
+   <div class="header">
+      <nav>
+         
+         <ul>
+            <li><a href="landing.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT ME</a></li>
+            
+           
+         </ul>
+      </nav>
+
+      
+      <div class="body">
+         <h1>Hello <br> I'm Manasi <span>Puranik.</span></h1>
+         <p class="demo2">Frontend fanatic, passionate about pixels and performance!!!!</p>
+
+         <button type="button" class="button-lrn">LEARN MORE</button>
+         <button type="button" class="button-hire">HIRE ME</button>
+         <button type="button"class="button-gfc">Download Resume</button>
+
+      </div>
+      <!-- Image section -->
+      <div class="image">
+         <img src="man2.jpg">
+      </div>
+   </div>
+</body>
+</html>
+css code
+* {
+   margin: 0;
+   padding: 0;
+   font-family:sans-serif;
+}
+
+/* Styles for header section */
+.header {
+   width: 100%;
+   height: 100vh;
+   background-color: lightblue;
+}
+
+/* Styles for navigation bar */
+nav {
+   display: flex;
+   margin: auto;
+   width: 90%;
+   padding: 20px;
+   align-items: center;
+   justify-content: space-between;
+}
+
+nav ul li {
+   display: inline-block;
+   list-style: none;
+   margin: 10px;
+}
+
+nav ul li a {
+   text-decoration: none;
+   color: black;
+   font-weight: bolder;
+}
+
+nav ul li a:hover {
+   background-color: seagreen;
+   border-radius: 2px;
+   color: white;
+}
+
+.button-cv, .button-gfc{
+   display: inline-block;
+   margin-left: 0%;
+   border-radius: 5px;
+   transition: background-color 0.5s;
+   background: black;
+   padding: 10px;
+   text-decoration: none;
+   font-weight: bold;
+   color: white;
+   border: none;
+   cursor: pointer;
+}
+
+.button-cv:hover {
+   background-color: white;
+   color: black;
+}
+
+.button-gfc{
+   background: lightsalmon;
+}
+
+.button-gfc:hover {
+   background-color: white;
+   color: black;
+}
+
+/* Styles for body section */
+.body {
+   margin-left: 100px;
+   margin-top: 100px;
+}
+
+.body h1 {
+   font-size: 30px;
+   color: black;
+   margin-bottom: 20px;
+}
+
+.demo1 {
+   color: orange;
+   margin-bottom: 30px;
+}
+  
+.demo2 {
+   color: black;
+   line-height: 20px;
+}
+
+.button-lrn, .button-hire{
+   background: lightsalmon;
+   padding: 10px 12px;
+   text-decoration: none;
+   font-weight: bold;
+   color: whitesmoke;
+   display: inline-block;
+   margin: 30px 8px;
+   border-radius: 5px;
+   transition: background-color 0.3s;
+   border: none;
+   letter-spacing: 1px;
+   cursor: pointer;
+}
+
+.button-lrn:hover {
+   background-color: whitesmoke;
+   color: black;
+}
+
+.button-hire {
+   background: black;
+}
+
+.button-hire:hover {
+   background-color: seagreen;
+}
+
+span {
+   color: seagreen;
+}
+
+/* Styles for image section */
+.image {
+   width: 45%;
+   height: 100%;
+   position: absolute;
+   bottom: 0;
+   right: 100px;
+}
+
+.image img {
+   height: 100%;
+   position:absolute;
+   left: 50%;
+   bottom: 10%;
+   transform: translate(-60%);
+}
+about code
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Me</title>
+</head>
+<body>
+	
+	<header style="background-color:lightblue; color:black; padding: 20px; text-align: center;">
+		<h1 style="font-size: 36px; margin-bottom: 10px;">About Me</h1>
+		
+	</header>
+	
+	
+	<main style="display: flex; flex-direction: column; align-items: center; padding: 20px;">
+		
+		
+		<p style="font-size: 18px; margin-bottom: 20px;">Hi, I'm Manasi, a passionate web developer with a love for creating intuitive and visually stunning digital experiences. With 2 years of experience in the field, I've honed my skills in frontent web development and have a proven track record of delivering high-quality solutions that meet and exceed client expectations.</p>
+		<p style="font-size: 18px; margin-bottom: 20px;">I'm always looking for new ways to push the boundaries of what's possible on the web and stay up-to-date with the latest trends and technologies. I'm excited to collaborate with like-minded individuals and businesses to bring their web development projects to life. Let's build something amazing together!</p>
+
+		
+		<h2 style="font-size: 24px; margin-bottom: 10px;">Skills</h2>
+		<ul style="list-style: none; margin: 0; padding: 0;">
+			<li style="margin-bottom: 10px;font-size:20px;">Frontent Web Development</li>
+			<li style="margin-bottom: 10px;font-size:20px;">HTML | CSS | JavaScript</li>
+			<li style="margin-bottom: 10px;font-size:20px;">C | C++ | Java</li>
+		</ul>
+	
+	
+</body>
+</html>
+contact html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Me</title>
+</head>
+<body>
+	
+	<header style="background-color:lightblue; color:black; padding: 20px; text-align: center;">
+		<h1 style="font-size: 36px; margin-bottom: 10px;">Contact Me</h1>
+		<p style="font-size: 18px; margin-bottom: 20px;">Get in touch with me!</p>
+	</header>
+	
+	<!-- Main Content Section -->
+	<main style="display: flex; flex-direction: column; align-items: center; padding: 20px;">
+		<!-- Contact Form -->
+		<form style="width: 50%; margin-top: 20px;">
+			<label for="name" style="font-size: 18px; margin-bottom: 10px;">Name:</label>
+			<input type="text" id="name" name="name" style="width: 100%; padding: 10px; margin-bottom: 20px;">
+			
+			<label for="email" style="font-size: 18px; margin-bottom: 10px;">Email:</label>
+			<input type="email" id="email" name="email" style="width: 100%; padding: 10px; margin-bottom: 20px;">
+			
+			<label for="message" style="font-size: 18px; margin-bottom: 10px;">Message:</label>
+			<textarea id="message" name="message" style="width: 100%; padding: 10px; margin-bottom: 20px;"></textarea>
+			
+			<input type="submit" value="Send" style="background-color: lightsalmon; color:white; padding: 10px 20px; border: none; cursor: pointer;">
+		</form>
+		
+		<!-- Contact Information -->
+		<p style="font-size: 18px; margin-bottom: 20px;">Email: <a href="mailto:mailto:your-email@gmail.com" style="color:seagreen;">manasip@gmail.com</a></p>
+		<p style="font-size: 18px; margin-bottom: 20px;">Phone: <a href="tel:tel:your-phone-number" style="color:seagreen;">7993465718</a></p>
+	</main>
+	
+</body>
+</html>
